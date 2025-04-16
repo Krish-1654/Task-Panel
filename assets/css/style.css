@@ -1,0 +1,35 @@
+
+.offcanvas-start{
+    width: 270px !important;
+    transition: all 0.4s ease-in-out !important;
+}
+/* main{
+    margin-left: 270px !important;
+} */
+
+.scroll-tb{
+    height: 60vh !important;
+}
+.scroll-tb::-webkit-scrollbar{
+    /* background-color: ghostwhite !important; */
+    /* width: 7px; */
+    display: none;
+    /* border-radius: 20px; */
+}
+/* .scroll-tb::-webkit-scrollbar-thumb{
+    background-color: rgb(39, 38, 38);
+    border-radius: 20px;
+
+} */
+
+
+@media (min-width:992px) {
+    .offcanvas-start{
+        transform: none !important;
+        visibility: visible !important;
+    }
+    main{
+        margin-left: 270px !important;
+        /* height: auto; */
+    }
+}

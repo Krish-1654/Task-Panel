@@ -1,0 +1,16 @@
+
+body {
+    background-image: url('https://cdn.pixabay.com/photo/2023/09/09/10/25/mountains-8242910_1280.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+form,.offcanvas{
+    backdrop-filter: blur(7px) saturate(194%) !important;
+    background-color: rgba(50, 66, 97, 0.64) !important;
+    border-radius: 12px !important;
+    border: 1px solid rgba(255, 255, 255, 0.125) !important;
+}
